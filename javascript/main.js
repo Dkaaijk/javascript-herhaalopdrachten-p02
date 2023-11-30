@@ -82,7 +82,7 @@ for (let i = 0; i < 10; i++) {
 
 // opdracht 7
 
-let x = 0;
+/*let x = 0;
 
 while (x <= 20) {
     x++;
@@ -93,7 +93,32 @@ while (x <= 20) {
     }
     console.log('ik ben vrij');
 
-    }
+    }*/
+
+//oefenopdrachten tussentoets p2
+
+//opdracht 1
+
+let guessWord = prompt();
+let correctWord = 'test';
+let stopPlay = 'quit';
+
+while (guessWord !== correctWord) {
+    guessWord = prompt('probeer het opnieuw')
+    
+    alert('dat antwoord is goed')
+if (guessWord == stopPlay) {
+    break;
+}
+}
+
+
+
+
+
+
+
+
 
 
 
